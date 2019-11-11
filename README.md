@@ -1,26 +1,17 @@
-# PNG console app
-## Development on hold, 09/2018
-Contains code and standards for the insertion of CloudCoins into PNG.
-
-
-## Goal
-
-#### To insert, save and retreive data from the PNG file format.
-
-## Summary of implementation
-
-1) Add new png.
-`Allows the user to target a PNG image from the "png" folder. `
-2) Select your png.
-`Allows the user to target a PNG image from the "Image Bank" folder. `
-3) Select your CloudCoins.
-`Allows a user to select one or multiple CloudCoin stacks found in the Bank folder.`
-4) Insert the CloudCoins into the PNG.
-`Inserts the CloudCoins as a png chunk with the chunk type designator of cLDc.`
-5) CloudCoins to Printouts folder.
-`Searches the file for cLDc chunk types, copies the information to the printouts folder.`
-`Creates a new image without the CloudCoin meta data.`
-
+PNG console app
+Development on hold, 09/2018
+It contains code and standards for the insertion of CloudCoins into PNG.
+Goal
+To insert, save, and retrieve data from the PNG file format.
+Summary of implementation
+Add new png. It allows the user to target a PNG image from the "png" folder.
+Select your png. It allows the user to target a PNG image from the "Image Bank" folder.
+Select your CloudCoins. It allows a user to select one or multiple CloudCoin stacks found in the Bank folder.
+Insert the CloudCoins into the PNG. Inserts the CloudCoins as a png chunk with the chunk type designator of cLDc.
+CloudCoins to Printouts folder. Searches the file for cLDc chunk types, copies the information to the printouts folder. Creates a new image without the CloudCoin metadata.
+Overview of implementation.
+The current implementation is a console app built-in VS-Code, to be upgraded to a multi-platform application.
+It serves as a proof of concept for storing CloudCoins in the meta tags of PNG files.
 
 
 ### Overview of implementation.
